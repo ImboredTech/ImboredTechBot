@@ -52,4 +52,4 @@ for filename in os.listdir('./cogs'):
     else:
         print("Ignore this message.")
 
-bot.login(config.token)
+bot.run(config.token)
